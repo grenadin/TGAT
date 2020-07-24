@@ -36,8 +36,6 @@ namespace TGAT.Model
         public string Email { get; set; }
         public string License { get; set; }
 
-        
-
         public ICollection<Enrollment> Enrollments { get; set; }
 
         public int MyProperty { get; set; }
